@@ -1,17 +1,22 @@
 # Mixed Number Class (C++)
 
-This project implements a `Mixed` class that represents mixed numbers
-and supports arithmetic, comparison, and input/output operations.
+A C++ class that models mixed numbers and supports full arithmetic,
+comparison, and stream input/output using operator overloading.
 
-## Files
-- `mixed.h` — class definition
-- `mixed.cpp` — implementation
-- `main.cpp` — demo program
-- `test.cpp` — test cases
+## Key Features
+- Operator overloading: `+ - * / < > <= >= == != << >>`
+- Automatic normalization and simplification
+- Conversion between mixed and improper fractions
+- Robust handling of invalid input
+- Separate test and demo drivers
 
-## Compile & Run
+## Tech Stack
+- C++ (C++17)
+- Object-Oriented Programming
+- Operator Overloading
 
-### Run main demo
+## Build & Run
+
 ```bash
 g++ -std=c++17 main.cpp mixed.cpp -o main
 ./main
